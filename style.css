@@ -1,0 +1,38 @@
+html {
+  font-family: 'Lato', sans-serif;
+  font-size: 14px;
+}
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+/* rem is relative to html, by default the relative unit is 16px. I could not find the actual formula but I found a chart that converted pixels to rems when the defaut is 16px.*/
+.btn {
+  border: 1px solid black;
+  font-family: "Lato";
+  font-size: 1.125rem;
+  font-weight: bold;
+  background: #296701;
+  width: 200px;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 0 0 10px rbga(0,0,0,0.1);
+  box-shadow: 4px 4px 10px black;
+}
+.btn {
+  outline: 10px black;
+}
+.btn:hover {
+  background-color: #db0013;
+  cursor: pointer;
+  background-image: linear-gradient(to bottom right, #db0013, #5b0101);
+}
